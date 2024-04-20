@@ -1,58 +1,3 @@
-.login .button {
-    border-radius: 8px;
-    background: #FF00A8;
-    position: relative;
-    margin-right: 3.2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px 0 10px 2.6px;
-    width: 304px;
-    box-sizing: border-box;
-}
-
-.login .create-account {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 22px;
-    color: #FFD3FB;
-}
-
-.login .campus-connect {
-    margin-bottom: 66px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'MuseoModerno';
-    font-weight: 600;
-    font-size: 64px;
-    color: #FFFFFF;
-}
-
-.login .button-1 {
-    border-radius: 8px;
-    background: #FF00A8;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px 0 10px 2.6px;
-    width: 304px;
-    box-sizing: border-box;
-}
-
-.login .create-account-1 {
-    overflow-wrap: break-word;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 22px;
-    color: #FFD3FB;
-}
-
 .login {
     background: linear-gradient(292.9deg, #493240 100%, #FF0099 200%);
     display: flex;
@@ -63,53 +8,38 @@
     box-sizing: border-box;
 }
 
-.login .vector {
-    margin: 8px 15px 8px 0;
-    width: 26px;
-    height: 26px;
+.campus-connect {
+    margin-bottom: 66px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'MuseoModerno';
+    font-weight: 600;
+    font-size: 64px;
+    color: #FFFFFF;
 }
 
-.login .vector-1 {
-    margin: 5px 17.1px 7px 0;
-    width: 22.9px;
-    height: 30px;
-}
-
-.login .line-2 {
-    opacity: 0.5;
-    background: #951D65;
-    margin-right: 10px;
-    width: 1px;
-    height: 42px;
-}
-
-.login .username {
-    margin: 13px 0 10px 0;
+.login-2 {
+    margin: 0 31.2px 11px 0;
     display: inline-block;
     overflow-wrap: break-word;
     font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFB5E1;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
 }
 
-.login .username-1 {
+.line-3 {
+    background: #FB0197;
+    margin: 0 4.2px 20px 0;
+    width: 229px;
+    height: 1px;
+}
+
+.username-1, .password {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.25);
     position: relative;
     margin: 0 1.2px 21px 0;
-    display: flex;
-    flex-direction: row;
-    padding: 7px 0 8px 23px;
-    width: 304px;
-    box-sizing: border-box;
-}
-
-.login .password {
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.25);
-    position: relative;
-    margin: 0 1.2px 32px 0;
     display: flex;
     flex-direction: row;
     padding: 7px 0 8px 24px;
@@ -117,7 +47,13 @@
     box-sizing: border-box;
 }
 
-.login .line-21 {
+.vector, .vector-1 {
+    margin-right: 15px;
+    width: 26px;
+    height: 26px;
+}
+
+.line-2, .line-21 {
     opacity: 0.5;
     background: #951D65;
     margin-right: 10px;
@@ -125,7 +61,7 @@
     height: 42px;
 }
 
-.login .password-1 {
+.username, .password-1 {
     margin: 13px 0 10px 0;
     display: inline-block;
     overflow-wrap: break-word;
@@ -135,15 +71,7 @@
     color: #FFB5E1;
 }
 
-.login .login-1 {
-    overflow-wrap: break-word;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 22px;
-    color: #FFD3FB;
-}
-
-.login .button-2 {
+.button-2, .button-1 {
     border-radius: 8px;
     background: #FF00A8;
     position: relative;
@@ -156,38 +84,10 @@
     box-sizing: border-box;
 }
 
-.login .login-2 {
-    margin: 0 31.2px 11px 0;
-    display: inline-block;
+.login-1, .create-account, .create-account-1 {
     overflow-wrap: break-word;
     font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 28px;
-    color: #FFFFFF;
-}
-
-.login .line-3 {
-    background: #FB0197;
-    margin: 0 4.2px 20px 0;
-    width: 229px;
-    height: 1px;
-}
-
-.login {
-    /* Your existing styles */
-}
-
-/* Additional styles for buttons */
-.login .button, .login .button-1 {
-    cursor: pointer;
-}
-
-/* Additional styles for hover effect */
-.login .button:hover, .login .button-1:hover {
-    background-color: #FF0099;
-}
-
-/* Additional styles for active effect */
-.login .button:active, .login .button-1:active {
-    background-color: #D9007D;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFD3FB;
 }
