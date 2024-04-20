@@ -172,3 +172,22 @@
     width: 229px;
     height: 1px;
 }
+
+.login {
+    /* Your existing styles */
+}
+
+/* Additional styles for buttons */
+.login .button, .login .button-1 {
+    cursor: pointer;
+}
+
+/* Additional styles for hover effect */
+.login .button:hover, .login .button-1:hover {
+    background-color: #FF0099;
+}
+
+/* Additional styles for active effect */
+.login .button:active, .login .button-1:active {
+    background-color: #D9007D;
+}
